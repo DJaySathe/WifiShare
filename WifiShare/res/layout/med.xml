@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:weightSum="100"
+    android:orientation="vertical" >
+
+
+
+
+
+
+
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="69dp"
+     android:background="@drawable/greenback"
+     android:gravity="top"
+     android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Dhananjay Sathe"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="match_parent"
+         android:layout_height="58dp"
+         android:gravity="center_horizontal"
+         android:text="(id:100)"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </LinearLayout>
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="41.22" >
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="36dp"
+         android:text="Medicine                Dosage"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/textView3"
+         android:layout_marginTop="29dp"
+         android:text="Vikoril  50mg               (1-1-1)*5"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/TextView03"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/textView2"
+         android:text="Omez 150mg               (0-0-1)*5"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/TextView03"
+         android:text="Nice 100mg                 (1-0-1)*5"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </RelativeLayout>
+
+ </LinearLayout>

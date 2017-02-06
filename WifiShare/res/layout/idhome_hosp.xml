@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:weightSum="100"
+    android:orientation="vertical" >
+
+
+
+ <LinearLayout 
+         android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:layout_weight="90"
+    android:orientation="vertical" >
+  
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Scroll To view Other options"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+ <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="384dp"
+        android:background="@drawable/greenback"
+        android:gravity="top"
+        android:layout_weight="90"
+    
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Check my Details"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/aboutme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/aboutme" />
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="View My Prescriptions"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <ImageButton
+        android:id="@+id/prescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/prescription" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="My Estimated Bill"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageButton
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/money" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="My Recieved Messages"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageButton
+        android:id="@+id/mymsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/e_mail" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Downloads"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageButton
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/download" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="send Us Feedback"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageButton
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/feedback" />
+ </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

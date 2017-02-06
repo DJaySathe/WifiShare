@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:weightSum="100"
+    android:orientation="vertical" >
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="69dp"
+     android:background="@drawable/greenback"
+     android:gravity="top"
+     android:orientation="vertical" >
+    
+
+    <TextView
+         android:textColor="@android:color/black"
+        android:id="@+id/Uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Dhananjay Sathe"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+          android:textColor="@android:color/black"
+         android:id="@+id/Uid"
+         android:layout_width="match_parent"
+         android:layout_height="58dp"
+         android:gravity="center_horizontal"
+         android:text="(id:100)"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="378dp"
+        android:layout_weight="70"
+        android:background="@drawable/greenback"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" >
+
+            <TableRow>
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:id="@+id/Last_sem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Bonus Points" />
+
+                <TextView
+                     android:textColor="@android:color/black"
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+           
+           
+        </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>

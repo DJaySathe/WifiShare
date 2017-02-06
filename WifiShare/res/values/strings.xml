@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">WifiShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">WifiShare</string>
+    <string name="domain">Wifi Server</string>
+    <string name="st">Schedules &amp; Timings</string>
+    <string name="connect_to_server">Connect To Server</string>
+
+</resources>

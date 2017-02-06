@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:weightSum="100" >
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="388dp"
+           android:layout_weight="90"
+           android:background="@drawable/greenback"
+           android:gravity="top"
+           android:orientation="vertical" >
+
+            <TextView
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedules to be displayed here"
+            android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+   
+    

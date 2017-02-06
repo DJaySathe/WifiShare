@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+	android:weightSum="100"
+    android:orientation="vertical" >
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="top"
+     android:orientation="vertical" >
+
+    <TextView
+         android:textColor="@android:color/black"
+        android:id="@+id/Dname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Domain Name"
+        android:textSize="40dp"
+         />
+
+     
+ </LinearLayout>
+
+ <AbsoluteLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+
+     <ImageButton
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="0dp"
+         android:layout_y="180dp"
+         android:src="@drawable/schedule" />
+
+     <ImageButton
+         android:id="@+id/button4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="160dp"
+         android:layout_y="180dp"
+         android:src="@drawable/maps" />
+
+     <ImageButton
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="160dp"
+         android:layout_y="10dp"
+         android:scaleType="fitEnd"
+         android:src="@drawable/notice" />
+
+     <ImageButton
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_x="0dp"
+         android:layout_y="10dp"
+         android:src="@drawable/browse" />
+ </AbsoluteLayout>
+
+ <TextView
+     android:id="@+id/MarqueeText"
+     android:layout_width="fill_parent"
+     android:layout_height="52dp"
+     android:layout_marginBottom="16dp"
+     android:ellipsize="marquee"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:freezesText="true"
+     android:gravity="bottom"
+     android:marqueeRepeatLimit="marquee_forever"
+     android:paddingLeft="15dip"
+     android:paddingRight="15dip"
+     android:scrollHorizontally="true"
+     android:singleLine="true"
+     android:text="Tips Will be Displayed Here   Tips Will be Displayed Here   Tips Will be Displayed Here  Tips Will be Displayed Here"
+     android:textSize="30dp" />
+
+</LinearLayout>

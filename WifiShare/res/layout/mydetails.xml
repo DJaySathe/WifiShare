@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greenback"
+    android:gravity="top"
+    android:weightSum="100"
+    android:orientation="vertical" >
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="69dp"
+     android:background="@drawable/greenback"
+     android:gravity="top"
+     android:orientation="vertical" >
+    
+    <TextView
+         android:textColor="@android:color/black"
+        android:id="@+id/Uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="User Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+          android:textColor="@android:color/black"
+         android:id="@+id/Uid"
+         android:layout_width="match_parent"
+         android:layout_height="58dp"
+         android:gravity="center_horizontal"
+         android:text="(id:User_id)"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="378dp"
+        android:layout_weight="70"
+        android:background="@drawable/greenback"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" >
+
+            <TableRow>
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:id="@+id/GENDER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:text="GENDER" />
+
+                <TextView
+                     android:textColor="@android:color/black"
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                     android:textColor="@android:color/black"
+                    android:id="@+id/Bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Blood Grp" />
+
+                <TextView
+                     android:textColor="@android:color/black"
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                     android:textColor="@android:color/black"
+                    android:id="@+id/Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Phone No" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                     android:textColor="@android:color/black"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                     android:textColor="@android:color/black"
+                    android:text="Address" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                     android:textColor="@android:color/black"
+                    android:text="" />
+                
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                     android:textColor="@android:color/black"
+                    android:text="Date of Birth" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                     android:textColor="@android:color/black"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>
